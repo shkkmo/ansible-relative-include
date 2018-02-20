@@ -1,0 +1,8 @@
+---
+all:
+  hosts:
+    local_vm:
+      ansible_become: true
+      ansible_host: "10.20.30.40"
+      ansible_user: "vagrant"
+      ansible_ssh_pass: "vagrant"

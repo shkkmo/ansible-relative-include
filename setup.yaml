@@ -1,0 +1,17 @@
+---
+- hosts: all #We have sperate inventory files for each server/environment
+
+  tasks:
+#    Adding these two roles doesn't change the error at all
+#    - name: Install PHP
+#      include_role:
+#        name: "geerlingguy.php"
+
+#    - name: Install Apache
+#      include_role:
+#        name: "geerlingguy.apache"
+
+    - name: Install Apache PHP-FPM
+      include_role:
+        name: "geerlingguy.apache-php-fpm"
+

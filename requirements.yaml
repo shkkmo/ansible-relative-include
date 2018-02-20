@@ -1,0 +1,10 @@
+---
+- src: geerlingguy.php       #https://galaxy.ansible.com/geerlingguy/php/
+  version: "3.5.0" #most recent on 2018/02/13
+
+- src: geerlingguy.apache     #https://galaxy.ansible.com/geerlingguy/apache/
+  version: "2.1.1" #most recent on 2018/02/13
+
+- src: geerlingguy.apache-php-fpm #https://galaxy.ansible.com/geerlingguy/apache-php-fpm/
+  version: "1.1.0"  #most recent on 2018/02/13
+
